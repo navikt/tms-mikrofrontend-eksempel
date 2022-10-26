@@ -5,7 +5,11 @@ import "./App.css";
 function App() {
   const tekst = "Dette kan bli en awesome mikrofrontend for ditt team! 😊 🎉";
 
-  return <Komponent tekst={tekst} />;
+  return (
+    <section className="mikrofrontend-eksempel">
+      <Komponent tekst={tekst} />
+    </section>
+  );
 }
 
 export default App;
