@@ -1,5 +1,5 @@
 {
-  "name": "tms-mikrofrontend-template",
+  "name": "tms-mikrofrontend-eksempel",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
