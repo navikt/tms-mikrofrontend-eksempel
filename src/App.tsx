@@ -5,13 +5,7 @@ import "./App.css";
 function App() {
   const tekst = "Dette kan bli en awesome mikrofrontend for ditt team! 😊 🎉";
 
-  return (
-    <main className="main">
-      <div className="app">
-        <Komponent tekst={tekst} />
-      </div>
-    </main>
-  );
+  return <Komponent tekst={tekst} />;
 }
 
 export default App;

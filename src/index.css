@@ -7,3 +7,16 @@ body {
   background-color: var(--navds-semantic-color-canvas-background);
   font-family: sans-serif;
 }
+
+.main {
+  height: auto;
+  min-height: 100%;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
